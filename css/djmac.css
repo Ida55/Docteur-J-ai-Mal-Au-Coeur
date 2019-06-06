@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 3px solid red; */
+}
+
+body {
+    background-color: #f7ecc0;
+    font-family: Arvo, sans-serif;
+}
+
+.titre {
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 45px;
+}
+
+#corps {
+    position: absolute;
+    /* width: 139px;
+    height:498px; */
+    z-index: 0; /* The use of z-index: 0 put the div wrapping the image behind the div wrapping the circles*/
+    margin-left: 690px;
+}
+
+#circles {
+  position: absolute;
+  z-index: 1; /* The use of z-index: 1 put the div wrapping the circles above the div wrapping the image*/
+}
+
+.gomette {
+    position: absolute;
+    background-color: magenta;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;  
+}
+
+/* .gomette:hover {
+    opacity: 0.5;
+} */
+
+#Feet {
+    left: 770px;
+    bottom: -480px;
+}
+
+.pied {
+    visibility: hidden;
+    width: 22vw;
+    height: 15vh;
+    padding: 0 40px;
+    text-align: justify;
+    background-color: #EFEFEF;
+    padding-top: 10px;
+    border: 3px solid black;
+}
+
+#Hand {
+    left: 798px;
+    bottom: -270px;
+}
+
+.main {
+    visibility: hidden;
+    display: block;
+    width: 22vw;
+    height: 13vh;
+    padding: 0 40px;
+    text-align: justify;
+    background-color: #EFEFEF;
+    padding-top: 10px;
+    border: 3px solid black;
+}
+
+#Elbow {
+    left: 690px;
+    bottom: -210px;
+}
+
+.coude {
+    visibility: hidden;
+    display: block;
+    width: 22vw;
+    height: 24vh;
+    padding: 0 40px;
+    text-align: justify; 
+    background-color: #EFEFEF;
+    padding-top: 10px;
+    border: 3px solid black;
+}
+
+#Neck {
+    left: 745px;
+    bottom: -105px;
+}
+
+.nuque {
+    visibility: hidden;
+    display: block;
+    width: 22vw;
+    height: 24vh;
+    padding: 0 40px;
+    text-align: justify;
+    background-color: #EFEFEF;
+    padding-top: 10px;
+    border: 3px solid black;
+}
+
+#Knee {
+    left: 725px;
+    bottom: -380px;
+}
+
+.genou {
+    visibility: hidden;
+    display: block;
+    width: 22vw;
+    height: 20vh;
+    padding: 0 40px;
+    text-align: justify;
+    background-color: #EFEFEF;
+    padding-top: 10px;
+    border: 3px solid black;
+}
+
